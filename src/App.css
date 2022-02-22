@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+.film-box {
+  border: black 1px solid;
+  width: 40%;
+  padding: 10px;
+}
