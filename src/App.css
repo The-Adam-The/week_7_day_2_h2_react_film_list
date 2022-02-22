@@ -2,8 +2,37 @@ body {
   margin: 0;
   padding: 10px;
 }
+
+a {
+  text-decoration: none;
+}
 .film-box {
   border: black 1px solid;
+  border-radius: 10px;
   width: 40%;
   padding: 10px;
+  text-align: center;
+  background-color: rgba(117, 132, 151, 0.247);
+}
+
+.film-list {
+  border: black 1px solid;
+  border-radius: inherit;
+  margin-bottom: 10px;
+  width: auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.film {
+
+}
+
+.link-box {
+  padding: 15px;
+  border: black 1px solid;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color:rgba(105, 134, 230, 0.479);
+
 }

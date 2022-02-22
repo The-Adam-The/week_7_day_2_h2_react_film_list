@@ -20,7 +20,8 @@ const FilmBox = () => {
             },
             {
               id: 4,
-              name: "The Lego Movie 2: The Second Part", url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
+              name: "The Lego Movie 2: The Second Part", 
+              url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
             },
             {
               id: 5,
@@ -32,8 +33,9 @@ const FilmBox = () => {
 
     return(
         <div className="film-box">
-            <h1>I'm a film box</h1>
-            <FilmList/>
+            <h2>Upcoming Film Releases for the UK</h2>
+            <FilmList films={films}/>
+            <a href="https://www.imdb.com/calendar/?region=gb"><h3 className="link-box" >View more upcoming releases &rsaquo; &rsaquo;</h3></a>
         </div>
 
     );
